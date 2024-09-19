@@ -92,8 +92,8 @@ h1{
   }
   .btncontainer{
     background-color: transparent; /* Transparent background */
-    border: 2px solid #4CAF50; /* Green border */
-    color: #4CAF50; /* Green text */
+    border: 2px solid #a52f52; /* Green border */
+    color: #000000; /* Green text */
     padding: 15px 32px; /* Padding */
     text-align: center;
     text-decoration: none;
@@ -107,6 +107,6 @@ h1{
 }
 
 .btncontainer:hover {
-    background-color: #4CAF50; /* Green background on hover */
-    color: white; /* White text on hover */
+    background-color: #dd8cb9; /* Green background on hover */
+    color: rgb(0, 0, 0); /* White text on hover */
 }
