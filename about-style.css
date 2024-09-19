@@ -1,7 +1,26 @@
 body{
-    background-image: url("photos/img15.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-cover {
+    background-image: url('photos/img15.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    color: rgb(0, 0, 0); /* Text color */
+}
+.text{
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: rgb(255, 182, 200);
+  margin: 10px;
+  padding: 10px;
 }
 
 h1{

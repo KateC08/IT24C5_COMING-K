@@ -19,7 +19,18 @@ h1{
     height: 50px;
     width: 50px;
   }
+  .container {
+    display: grid;
+    place-items: center;
+    height: 50vh;
+  }
   
+  .container img {
+    width: 350px; /* Set the width of the image */
+    height: 350px; /* Set the height of the image to match width */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+  }
   
   /* Style the header links */
   .header a {
@@ -72,6 +83,12 @@ h1{
     text-align: justify;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 75px;
+  }
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
   }
   .btncontainer{
     background-color: transparent; /* Transparent background */
