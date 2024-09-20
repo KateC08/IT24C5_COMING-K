@@ -1,8 +1,4 @@
-/*body{
-    background-image: url("photos/img12.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
-}*/
+
 h1{
     color: rgb(60, 179, 113), blue;
     text-align: center;
@@ -55,7 +51,7 @@ h1{
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(73, 60, 60);
     color: White;
   }
   
@@ -92,9 +88,9 @@ h1{
   }
   .btncontainer{
     background-color: transparent; /* Transparent background */
-    border: 2px solid #a52f52; /* Green border */
-    color: #000000; /* Green text */
-    padding: 15px 32px; /* Padding */
+    border: 2px solid #df7c9a; 
+    color: #000000; 
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

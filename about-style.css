@@ -18,7 +18,7 @@ body{
 .text{
   text-align: justify;
   text-justify: inter-word;
-  background-color: rgb(255, 182, 200);
+  background-color: rgb(255, 255, 255);
   margin: 10px;
   padding: 10px;
 }
